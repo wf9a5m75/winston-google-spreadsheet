@@ -42,6 +42,7 @@ In addition to these, the Redis transport also accepts the following options.
 
 ### Create a log file
 Create a Google Spreadsheet in your Google Drive, then add __timestamp__, __level__, __message__ and __meta__ columns like this image.
+
 ![image1](images/columns.png)
 
 
