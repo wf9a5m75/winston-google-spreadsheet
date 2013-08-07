@@ -31,6 +31,9 @@ In addition to these, the Redis transport also accepts the following options.
 
 *Metadata:* Logged as JSON literal in cell
 
+*fileId:* A file ID is included in the URL of the file.
+![image2](images/file_id.png)
+
 ## Installation
 
 ### Installing winston-google-spreadsheet
