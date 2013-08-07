@@ -1,7 +1,6 @@
-winston-google-spreadsheet
-==========================
+# winston-google-spreadsheet
 
-A Google Spreadsheet transport for [winston][0]
+Log data into your Google Spreadsheet with [winston][0]
 
 ## Usage
 ``` js
