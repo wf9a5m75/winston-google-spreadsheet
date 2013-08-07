@@ -49,6 +49,6 @@ Create a Google Spreadsheet in your Google Drive, then add __timestamp__, __leve
 ![image1](images/columns.png)
 
 
-#### Author: [Charlie Robbins](http://github.com/indexzero)
+#### Author: [Masashi Katsumata](http://masashi-k.blogspot.com/)
 
 [0]: https://github.com/flatiron/winston
