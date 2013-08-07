@@ -8,6 +8,10 @@
     "request": "~2.26.0",
     "refresh-token": "~0.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wf9a5m75/winston-google-spreadsheet"
+  },
   "licenses": [
     {
       "type": "Apache License, Version 2.0",
