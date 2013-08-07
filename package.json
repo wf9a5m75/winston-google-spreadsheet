@@ -1,0 +1,18 @@
+{
+  "name": "winston-google-spreadsheet",
+  "version": "0.0.1",
+  "main": "./lib/winston-google-spreadsheet",
+  "keywords": ["logging", "winston", "google", "spreadsheet"],
+  "dependencies": {
+    "data2xml": "~0.8.1",
+    "request": "~2.26.0",
+    "refresh-token": "~0.0.1"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html" 
+    }
+  ],
+  "author": "Masashi Katsumata<wf9a5m75@gmail.com>"
+}
