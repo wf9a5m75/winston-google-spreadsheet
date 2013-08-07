@@ -31,7 +31,7 @@ In addition to these, the Redis transport also accepts the following options.
 *Metadata:* Logged as JSON literal in cell
 
 *fileId:* A file ID is included in the URL of the file.
-![image2](images/file_id.png)
+![image2](https://github.com/wf9a5m75/winston-google-spreadsheet/raw/master/images/file_id.png)
 
 ## Installation
 
@@ -45,7 +45,7 @@ In addition to these, the Redis transport also accepts the following options.
 ### Create a log file
 Create a Google Spreadsheet in your Google Drive, then add __timestamp__, __level__, __message__ and __meta__ columns like this image.
 
-![image1](images/columns.png)
+![image1](https://github.com/wf9a5m75/winston-google-spreadsheet/raw/master/images/columns.png)
 
 
 #### Author: [Masashi Katsumata](http://masashi-k.blogspot.com/)
