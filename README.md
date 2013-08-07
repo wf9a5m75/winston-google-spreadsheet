@@ -47,6 +47,7 @@ Create a Google Spreadsheet in your Google Drive, then add __timestamp__, __leve
 
 ![image1](https://github.com/wf9a5m75/winston-google-spreadsheet/raw/master/images/columns.png)
 
+*See more detailed explain at http://masashi-k.blogspot.com/2013/08/logging-data-into-google-spreadsheet.html*
 
 #### Author: [Masashi Katsumata](http://masashi-k.blogspot.com/)
 

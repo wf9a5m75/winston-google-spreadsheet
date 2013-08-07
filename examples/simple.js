@@ -32,19 +32,19 @@ async.waterfall([
     });
     
     var consoleLogger = new (winston.transports.Console)({
-      timestamp: true,
-      level : 'info',
-      json : true,
-      prettyPrint : true,
-      colorize : true
+      'timestamp': true,
+      'level' : 'info',
+      'json' : true,
+      'prettyPrint' : true,
+      'colorize'' : true
     });
     callback(null, [ssLogger, consoleLogger])
   }
 ], function(err, loggers) {
   var logger = new (winston.Logger)({
-    transports: loggers,
-    exceptionHandlers: loggers,
-    exitOnError: false
+    'transports': loggers,
+    'exceptionHandlers': loggers,
+    'exitOnError': false
   });
 
   logger.log('info', 'Test Log Message', { anything: 'This is metadata' });
