@@ -42,7 +42,7 @@ In addition to these, the Redis transport also accepts the following options.
 
 ### Create a log file
 Create a Google Spreadsheet in your Google Drive, then add __timestamp__, __level__, __message__ and __meta__ columns like this image.
-(https://raw.github.com/wf9a5m75/winston-google-spreadsheet/master/columns.png)
+![image1](images/columns.png)
 
 
 #### Author: [Charlie Robbins](http://github.com/indexzero)
