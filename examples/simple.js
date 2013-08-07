@@ -8,8 +8,7 @@ require('winston-google-spreadsheet').GoogleSpreadSheet;
 
 var async = require('async'),
     events = require('events'),
-    GoogleTokenProvider = require('refresh-token').GoogleTokenProvider,
-    appEvents = new events.EventEmitter();
+    GoogleTokenProvider = require('refresh-token').GoogleTokenProvider;
     
 
 async.waterfall([
@@ -31,11 +30,6 @@ async.waterfall([
       'client_id': CLIENT_ID,
       'client_secret': CLIENT_SECRET
     });
-    appEvents.on('updateAccessToken', function(err, accessToken) {
-      if (!err) {
-        ssLogger.accessToken = accessToken;
-      }
-    })
     
     var consoleLogger = new (winston.transports.Console)({
       timestamp: true,
