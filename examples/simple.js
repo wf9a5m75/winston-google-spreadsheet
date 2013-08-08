@@ -26,9 +26,9 @@ async.waterfall([
       'fileId' : FILE_ID,
       'level' : 'info',
       'accessToken': accessToken,
-      'refresh_token': REFRESH_TOKEN,
-      'client_id': CLIENT_ID,
-      'client_secret': CLIENT_SECRET
+      'refreshToken': REFRESH_TOKEN,
+      'clientId': CLIENT_ID,
+      'clientSecret': CLIENT_SECRET
     });
     
     var consoleLogger = new (winston.transports.Console)({
