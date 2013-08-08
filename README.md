@@ -21,7 +21,6 @@ This transport accepts the follow options:
 * __sheetIdx:__ (Default **1**) The worksheet index of the file.
 * __accessToken:__ (Default **None**) The access token to the file.
 * __level:__ (Default **Info**) Level of messages that this transport should log.
-* __timeZone:__ (Default **None**) Specify a timezone for timestamp (see [node-time][1] module)
 
 In addition for OAuth2, this module also accepts the following options.
 
@@ -67,8 +66,7 @@ var ssLogger = new (winston.transports.GoogleSpreadsheet)({
       'email': EMAIL,
       'password': PASSWORD,
       'fileId' : FILE_ID,
-      'level' : 'info',
-      'timeZone': 'America/Los Angels'
+      'level' : 'info'
     });
 
 var logger = new (winston.Logger)({
@@ -97,8 +95,7 @@ var ssLogger = new (winston.transports.GoogleSpreadsheet)({
   'level' : 'info',
   'refreshToken': REFRESH_TOKEN,
   'clientId': CLIENT_ID,
-  'clientSecret': CLIENT_SECRET,
-  'timeZone': 'America/Los Angels'
+  'clientSecret': CLIENT_SECRET
 });
   
 var logger = new (winston.Logger)({

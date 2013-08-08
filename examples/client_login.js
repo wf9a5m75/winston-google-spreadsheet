@@ -9,8 +9,7 @@ var ssLogger = new (winston.transports.GoogleSpreadsheet)({
       'email': EMAIL,
       'password': PASSWORD,
       'fileId' : FILE_ID,
-      'level' : 'info',
-      'timeZone': 'America/Los Angels'
+      'level' : 'info'
     });
 
 var logger = new (winston.Logger)({

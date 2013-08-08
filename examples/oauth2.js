@@ -11,8 +11,7 @@ var ssLogger = new (winston.transports.GoogleSpreadsheet)({
   'level' : 'info',
   'refreshToken': REFRESH_TOKEN,
   'clientId': CLIENT_ID,
-  'clientSecret': CLIENT_SECRET,
-  'timeZone': 'America/Los Angels'
+  'clientSecret': CLIENT_SECRET
 });
   
 var logger = new (winston.Logger)({
