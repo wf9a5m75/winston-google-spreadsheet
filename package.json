@@ -1,6 +1,6 @@
 {
   "name": "winston-google-spreadsheet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/winston-google-spreadsheet",
   "keywords": ["logging", "winston", "google", "spreadsheet"],
   "dependencies": {

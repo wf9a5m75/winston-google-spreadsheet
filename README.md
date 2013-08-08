@@ -24,9 +24,9 @@ This transport accepts the follow options:
 
 In addition to these, the Redis transport also accepts the following options.
 
-* __refresh_token:__ (Default **None**) Number of log messages to store.
-* __client_id:__ (Default **None**) Name of the Redis container you wish your logs to be in.
-* __client_secret:__ (Default **None**) Name of the Redis channel to stream logs from. 
+* __refreshToken:__ (Default **None**) Number of log messages to store.
+* __clientId:__ (Default **None**) Name of the Redis container you wish your logs to be in.
+* __clientSecret:__ (Default **None**) Name of the Redis channel to stream logs from. 
 
 *Metadata:* Logged as JSON literal in cell
 
