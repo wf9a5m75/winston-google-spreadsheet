@@ -21,6 +21,7 @@ This transport accepts the follow options:
 * __sheetIdx:__ (Default **1**) The worksheet index of the file.
 * __accessToken:__ (Default **None**) The access token to the file.
 * __level:__ (Default **Info**) Level of messages that this transport should log.
+* __timezone:__ (Default **Node**) Specify timezone for log timestamp.
 
 In addition for OAuth2, this module also accepts the following options.
 
@@ -105,6 +106,18 @@ var logger = new (winston.Logger)({
 });
 
 logger.log('info', 'Test Log Message', { anything: 'This is metadata' });
+```
+
+
+### Change time zone
+If you send your log data from in different time zones, you can specify time zone for log timestamp.
+
+``` js
+var ssLogger = new (winston.transports.GoogleSpreadsheet)({
+  'fileId' : FILE_ID,
+  'level' : 'info',
+  'timezone': 'America/Los_Angeles'  // Asia/Tokyo etc.
+});
 ```
 
 *See more detailed explain at http://masashi-k.blogspot.com/2013/08/logging-data-into-google-spreadsheet.html*
