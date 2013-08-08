@@ -1,13 +1,14 @@
 {
   "name": "winston-google-spreadsheet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/winston-google-spreadsheet",
   "keywords": ["logging", "winston", "google", "spreadsheet"],
   "dependencies": {
     "data2xml": "~0.8.1",
     "request": "~2.26.0",
     "refresh-token": "~0.0.1",
-    "googleclientlogin": "~0.2.6"
+    "googleclientlogin": "~0.2.6",
+    "zoneinfo": "~0.1.8"
   },
   "repository": {
     "type": "git",
