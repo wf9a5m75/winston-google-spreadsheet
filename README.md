@@ -21,13 +21,18 @@ This transport accepts the follow options:
 * __sheetIdx:__ (Default **1**) The worksheet index of the file.
 * __accessToken:__ (Default **None**) The access token to the file.
 * __level:__ (Default **Info**) Level of messages that this transport should log.
-
-In addition to these, the Redis transport also accepts the following options.
-
-* __refreshToken:__ (Default **None**) Number of log messages to store.
-* __clientId:__ (Default **None**) Name of the Redis container you wish your logs to be in.
-* __clientSecret:__ (Default **None**) Name of the Redis channel to stream logs from. 
 * __timeZone:__ (Default **None**) Specify a timezone for timestamp (see [node-time][1] module)
+
+In addition for OAuth2, this module also accepts the following options.
+
+* __refreshToken:__ (Default **None**) OAuth2 refresh token.
+* __clientId:__ (Default **None**) OAuth2 client ID.
+* __clientSecret:__ (Default **None**) OAuth2 client secret.
+
+If you want to use client login, this module also accepts the following options.
+
+* __email:__ (Default **None**) Your gmail address.
+* __password:__ (Default **None**) Your gmail password. 
 
 *Metadata:* Logged as JSON literal in cell
 
